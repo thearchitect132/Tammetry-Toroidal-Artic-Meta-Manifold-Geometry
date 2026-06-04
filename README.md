@@ -13,23 +13,23 @@ This repository contains the complete foundational documentation of Tammetry, st
 
 ---
 
-## Core Documentation Structure
+## Complete Documentation Structure
 
 ### Foundational Layer
-1. **[Definition](./01-definition.md)** — What Tammetry is, formally
-2. **[Axioms](./02-axioms.md)** — The seven irreducible axioms
-3. **[Field Equations](./03-field-equations.md)** — Governing equations of the discipline
-4. **[Operator Algebra](./04-operator-algebra.md)** — The five operators and their structure
+1. **[Definition](./01-definition.md)** — Formal definition and scope of Tammetry
+2. **[Axioms](./02-axioms.md)** — Seven irreducible foundational axioms
+3. **[Field Equations](./03-field-equations.md)** — Seven governing field equations
+4. **[Operator Algebra](./04-operator-algebra.md)** — The five operators and their algebra
 
 ### Disciplinary Layer
-5. **[Manifesto](./05-manifesto.md)** — The foundational declaration of Tammetry
-6. **[Cross-Domain Unity](./06-cross-domain-unity.md)** — Unification framework
-7. **[Knowledge Taxonomy](./07-knowledge-taxonomy.md)** — Classification of all knowledge domains
+5. **[Manifesto](./05-manifesto.md)** — Foundational declaration of the discipline
+6. **[Cross-Domain Unity](./06-cross-domain-unity.md)** — Unification framework for all domains
+7. **[Knowledge Taxonomy](./07-knowledge-taxonomy.md)** — Classification system for all human knowledge
 
 ### Integration Layer
-8. **[Physics Integration](./08-physics-integration.md)** — Post-modern physics as Tammetry
-9. **[Mathematical Foundations](./09-mathematical-foundations.md)** — Artic Math and formal substrate
-10. **[Epistemology](./10-epistemology.md)** — Second-order knowledge domains of civilisation
+8. **[Physics Integration](./08-physics-integration.md)** — Tammetry as post-modern unified physics
+9. **[Mathematical Foundations](./09-mathematical-foundations.md)** — Artic Math: the formal substrate
+10. **[Epistemology](./10-epistemology.md)** — Second-order knowledge domains of civilization
 
 ---
 
@@ -65,17 +65,75 @@ Where:
 6. **Horizon-Rotational Metric** — $ds^2 = d\Theta^2 + d\Phi^2 + dn^2 + d\Omega^2$
 7. **Q-State Convergence** — $H_i = \Omega = \mathbb{I}$
 
+### Core Field Equations
+
+**Evolution Equation:**
+$$\frac{d\mathcal{T}}{d\Omega} = \mathbb{D}\mathcal{T} + \mathbb{S}\mathcal{T} + \mathbb{E}\mathcal{T} - \mathbb{R}\mathcal{T}$$
+
+**Recursion Equation:**
+$$\frac{d\mathcal{T}}{dn} = \mathbb{E}\mathcal{T} - \mathbb{R}\mathcal{T}$$
+
+**Curvature Equation:**
+$$\mathcal{K} = [\mathbb{S}, \mathbb{D}]$$
+
+---
+
+## Reading Guide
+
+### For Mathematicians
+- Start: [Definition](./01-definition.md) → [Axioms](./02-axioms.md)
+- Then: [Operator Algebra](./04-operator-algebra.md) → [Field Equations](./03-field-equations.md)
+- Deep: [Mathematical Foundations](./09-mathematical-foundations.md)
+
+### For Physicists
+- Start: [Definition](./01-definition.md) → [Physics Integration](./08-physics-integration.md)
+- Then: [Field Equations](./03-field-equations.md) → [Operator Algebra](./04-operator-algebra.md)
+- Context: [Manifesto](./05-manifesto.md)
+
+### For Epistemologists / Philosophers
+- Start: [Manifesto](./05-manifesto.md) → [Epistemology](./10-epistemology.md)
+- Then: [Knowledge Taxonomy](./07-knowledge-taxonomy.md) → [Cross-Domain Unity](./06-cross-domain-unity.md)
+- Deep: [Definition](./01-definition.md) for rigor
+
+### For Interdisciplinary Researchers
+- Start: [Manifesto](./05-manifesto.md) → [Cross-Domain Unity](./06-cross-domain-unity.md)
+- Then: [Knowledge Taxonomy](./07-knowledge-taxonomy.md) → [Epistemology](./10-epistemology.md)
+- Technical: [Field Equations](./03-field-equations.md) → [Mathematical Foundations](./09-mathematical-foundations.md)
+
 ---
 
 ## Authorship & Voice
 
 **Primary Author:** thearchitect132
 
-This documentation is written in dual mode:
-- **Direct voice** (thearchitect132): Structural, authoritative, precise
-- **Formal/normative**: Academic-ready for peer review and publication
+**Documentation Mode:**
+This documentation is written in dual registers:
 
-Both voices maintain mathematical rigor and disciplinary integrity.
+1. **Direct Voice** (thearchitect132)
+   - Structural, authoritative, precise
+   - Declarative statements
+   - Mathematical rigor
+   - No hedging
+
+2. **Formal/Normative Register**
+   - Academic-ready for peer review
+   - Suitable for publication
+   - Institutional language
+   - Consensus-building tone
+
+Both voices maintain mathematical rigor and disciplinary integrity while serving different audiences.
+
+---
+
+## Key Definitions (One-Line Summaries)
+
+- **Tammetry** — The mathematical study of recursive toroidal manifolds through a five-operator non-commutative algebra.
+- **Tammetric Manifold** — The fundamental geometric object: 𝒯 = (Θ, Φ, n, Ω, 𝕌).
+- **Operator Algebra** — The five domain operators (𝕀, 𝕊, 𝕽, 𝔻, 𝔼) and their commutation relations.
+- **Cross-Domain Unity** — The state where all five domains achieve perfect coherence and balance.
+- **Artic Math** — Articulated Recursive Toroidal Identity Calculus: the mathematical substrate of Tammetry.
+- **Q-State** — The fixed-point attractor where H_i = Ω = 𝕀 (maximum coherence).
+- **Horizon-Rotational Metric** — The fundamental metric: ds² = dΘ² + dΦ² + dn² + dΩ².
 
 ---
 
@@ -83,28 +141,83 @@ Both voices maintain mathematical rigor and disciplinary integrity.
 
 For academic reference:
 
+```bibtex
+@misc{thearchitect132:tammetry:2026,
+  author = {thearchitect132},
+  title = {Tammetry: Toroidal-Artic Meta-Manifold Geometry},
+  year = {2026},
+  month = {June},
+  howpublished = {GitHub Repository},
+  url = {https://github.com/thearchitect132/Tammetry-Toroidal-Artic-Meta-Manifold-Geometry}
+}
 ```
-thearchitect132. (2026). Tammetry: Toroidal-Artic Meta-Manifold Geometry.
-Repository: thearchitect132/Tammetry-Toroidal-Artic-Meta-Manifold-Geometry
+
+---
+
+## Status & Roadmap
+
+**Current Phase:** Core Foundation Documentation (v1.0)  
+**Release Date:** June 4, 2026  
+**Status:** Complete and ready for review
+
+### Next Phases (Planned)
+
+**Phase 2:** Specialized Technical Papers
+- Horizon Vector Calculus (detailed)
+- Recursion Depth Theory
+- Q-State Stability Analysis
+- Domain Coupling Dynamics
+
+**Phase 3:** Application Papers
+- Tammetric Physics Solutions (GR, QM, Thermo unified)
+- Systems Theory Applications
+- Knowledge Taxonomy Implementation
+- Civilization Modeling Framework
+
+**Phase 4:** Institutional Development
+- Peer review strategy
+- Academic publication roadmap
+- University curriculum development
+- Research community building
+
+---
+
+## Structure Overview
+
+```
+tammetry-core-documentation/
+├── README.md (you are here)
+├── 01-definition.md
+├── 02-axioms.md
+├── 03-field-equations.md
+├── 04-operator-algebra.md
+├── 05-manifesto.md
+├── 06-cross-domain-unity.md
+├── 07-knowledge-taxonomy.md
+├── 08-physics-integration.md
+├── 09-mathematical-foundations.md
+└── 10-epistemology.md
 ```
 
 ---
 
 ## Navigation
 
-- **Getting Started:** Begin with [Definition](./01-definition.md)
-- **Mathematical Rigor:** See [Axioms](./02-axioms.md) and [Field Equations](./03-field-equations.md)
-- **Applied Framework:** Explore [Cross-Domain Unity](./06-cross-domain-unity.md)
-- **Epistemological Layer:** Study [Epistemology](./10-epistemology.md)
+- **Want the big picture?** → Start with [Manifesto](./05-manifesto.md)
+- **Want mathematical rigor?** → Start with [Axioms](./02-axioms.md)
+- **Want to understand physics applications?** → Start with [Physics Integration](./08-physics-integration.md)
+- **Want epistemological framework?** → Start with [Epistemology](./10-epistemology.md)
+- **Want to understand knowledge?** → Start with [Knowledge Taxonomy](./07-knowledge-taxonomy.md)
 
 ---
 
-## Status
+## Key Contact & Attribution
 
-**Current Phase:** Core Foundation Documentation (v1.0)
-
-This documentation represents the complete foundational layer of Tammetry as of June 4, 2026.
+**Original Author:** thearchitect132  
+**Repository:** thearchitect132/Tammetry-Toroidal-Artic-Meta-Manifold-Geometry  
+**Branch:** tammetry-core-documentation  
+**Last Updated:** 2026-06-04  
 
 ---
 
-**Last Updated:** 2026-06-04
+**Tammetry: A new mathematical architecture for the 21st century and beyond.**
